@@ -18,9 +18,10 @@ header{
 nav{
 	width: 1200px;
 	height: 65px;
-	background: #003f5e;
-	border-radius: 0px 0px 10px 10px;
-	color: #006680;
+/*	background: #003f5e; */
+	background: #B5A900;
+	border-radius: 10px 10px 0px 0px;
+	color: white;
 }
 
 section{
@@ -45,7 +46,7 @@ aside{
 footer{
 	width: 1200px;
 	height: 70px;
-	background: #003f5e;
+	background: #B5A900;
 	float: left;
 	margin-top: 7px;
 	border-radius: 0px 0px 10px 10px;
@@ -85,15 +86,11 @@ li{
 	float: left;
 	list-style-type: none;
 	padding: 13px;
-	background: #003f5e;
+/*	background: #003f5e;*/
 	margin: 3px;
-	border-radius: 7px;
+	border-radius: 5px;
 	box-shadow: inset 0px 0px 10px white;
 	margin-top: 7px;
-}
-
-li ul{
-
 }
 
 
@@ -138,3 +135,22 @@ li ul{
 	font-size: 16px;
 	text-decoration: none;
 }
+
+/*menu vertical*/
+
+}
+
+ul.side_menu {
+	width: 220px;
+	list-style: none;
+	text-align: center;
+	text-shadow: 2px 2px 4px red;
+	padding:0;
+}
+
+ul.side_menu li {padding: 10px 0px; border: groove blue;
+border-width: 6px 6px 0px 6px; background-color: #F7FE2E;}
+
+ul.side_menu li:last-child { border-bottom: groove blue; border-bottom-width: 6px;}
+ul.side_menu li a:link, ul.side_menu li a:visited { text-decoration: none; color:black;}
+ul.side_menu li:hover {background-color: #FFD700;}
