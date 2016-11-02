@@ -1,5 +1,5 @@
 #contenidos{
-	width: 1000px;
+	width: 1200px;
 	height: auto;
 	margin: auto;
 	position: relative;
@@ -11,16 +11,25 @@ body{
 }
 
 header{
-	width: 1000px;
+	width: 1200px;
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
 }
 nav{
-	width: 1000px;
+	width: 1200px;
 	height: 65px;
 	background: #003f5e;
 	border-radius: 0px 0px 10px 10px;
 	color: #006680;
+}
+
+section{
+	width: 913px;
+	background: white;
+	height: 720px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
 }
 
 aside{
@@ -34,7 +43,7 @@ aside{
 }
 
 footer{
-	width: 1000px;
+	width: 1200px;
 	height: 70px;
 	background: #003f5e;
 	float: left;
@@ -88,8 +97,8 @@ li ul{
 }
 
 
-.menu_inicial{width: 900px;}
-.menu_v{width: 970px;}
+.menu_v_ini{width: 900px;}
+.menu_v_gen{width: 970px;}
 .menu:link{
 	color: #FFF;
 	text-decoration: none;
@@ -123,3 +132,9 @@ li ul{
         position:absolute;
         min-width:130px;
         }
+
+.foto_perfil{
+	color: rgb(150, 150, 150);
+	font-size: 16px;
+	text-decoration: none;
+}
